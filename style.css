@@ -1,0 +1,95 @@
+body {
+    background-image: url(/background-image.jpg);
+}
+
+.content-1 img {
+    width: 220px;
+    height: 220px;
+    border: 1px solid white;
+    margin: 20px;
+    size: 50px 50px;
+}
+
+#principal {
+    width: 100%;
+}
+.cabecalho {
+    border: 1px solid #f83d87;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.cabecalho-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #f83d87;
+    color: #ffffff; /* Corrigi a escrita */
+}
+
+.img-cabecalho {
+    width: 120px;
+}
+
+.titulo-cabecalho {
+    font-weight: bold;
+    font-size: 40px; 
+    font-family: 'Bebas Neue', sans-serif; 
+    color: #f83d87;
+}
+
+.button {
+    height: 40px;
+    padding: 5px 20px; 
+    background-color: #f83d87;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px; /* Ajustei o tamanho da fonte */
+    color: #ffffff;
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: 20px;
+    border: none; /* Removi a borda */
+    border-radius: 5px; /* Adicionei borda arredondada */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #000000;
+    transition: background-color 0.5s; /* Reduzi o tempo de transição */
+}
+
+.content-1 {
+    margin: 40px;
+    
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+    color: #ffff;
+    font-size: 50px;
+    border: 1px solid white;
+    text-align: center;
+}
+table {
+    
+    color: #ffffff;
+    font-family: 'Muli';
+    font-size: 20px;
+    text-align: center;
+}
+.table-img {
+    width: 200px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    
+}
+a:hover {
+    background-color: black;
+    transition: 1s;
+    border: 1px solid white;
+}
