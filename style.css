@@ -1,5 +1,6 @@
 body {
-    background-image: url(/background-image.jpg);
+    margin: 0;
+    padding: 0;
 }
 
 .content-1 img {
@@ -12,7 +13,17 @@ body {
 
 #principal {
     width: 100%;
+    background-image: url('./background-image.jpg');
 }
+
+#principal2 {
+    min-height: 900px;    
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+
 .cabecalho {
     border: 1px solid #f83d87;
     background-color: rgb(255, 255, 255);
@@ -36,6 +47,7 @@ body {
     font-size: 40px; 
     font-family: 'Bebas Neue', sans-serif; 
     color: #f83d87;
+    flex: 1;
 }
 
 .button {
@@ -68,7 +80,6 @@ h2 {
     font-family: 'Bebas Neue';
     color: #ffff;
     font-size: 50px;
-    border: 1px solid white;
     text-align: center;
 }
 table {
